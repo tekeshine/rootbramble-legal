@@ -1,0 +1,360 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Rootbramble Privacy Policy</title>
+<style>body{font:16px/1.6 -apple-system,system-ui,sans-serif;max-width:720px;margin:0 auto;padding:24px 16px;color:#1d1d1f;background:#fff}h1{font-size:28px}h2{font-size:21px;margin-top:32px}h3{font-size:17px}a{color:#8a6a2c}table{border-collapse:collapse;display:block;overflow-x:auto}td,th{border:1px solid #ccc;padding:6px 8px;vertical-align:top}nav{margin-bottom:24px}@media (prefers-color-scheme:dark){body{color:#eee;background:#111}a{color:#d4af6e}td,th{border-color:#444}}</style></head>
+<body><nav><a href="../privacy/">Privacy Policy</a> · <a href="../terms/">Terms of Use</a> · <a href="../consumer-health-data-privacy/">Consumer Health Data Privacy</a></nav>
+<h1>Privacy Policy — Rootbramble</h1>
+<p><strong>Last updated:</strong> 12 October 2026</p>
+<hr>
+<h2>1. Who We Are</h2>
+<p><strong>Data Controller:</strong>
+Thor Kenneth / Tekeshine
+Email: <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a></p>
+<p>This Privacy Policy applies to the Rootbramble mobile application (&quot;App&quot;) on iOS and Android, and to the rootbramble.com website.</p>
+<hr>
+<h2>2. What Data We Collect</h2>
+<p>We collect only what is necessary to deliver your personalised wellness plan.</p>
+<h3>2.1 Personal Data You Provide</h3>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Required</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Name</td>
+<td>Optional</td>
+<td>Display inside app</td>
+</tr>
+<tr>
+<td>Age</td>
+<td>Optional</td>
+<td>Plan relevance</td>
+</tr>
+<tr>
+<td>Weight</td>
+<td>Optional</td>
+<td>Wellness tracking</td>
+</tr>
+<tr>
+<td>Height</td>
+<td>Optional</td>
+<td>Wellness tracking</td>
+</tr>
+<tr>
+<td>Health goals</td>
+<td>Optional</td>
+<td>Plan generation</td>
+</tr>
+<tr>
+<td>Dietary restrictions</td>
+<td>Optional</td>
+<td>Plan safety filtering</td>
+</tr>
+<tr>
+<td>Health conditions</td>
+<td>Optional</td>
+<td>Contraindication filtering</td>
+</tr>
+<tr>
+<td>Daily check-in data</td>
+<td>Core feature</td>
+<td>Progress tracking</td>
+</tr>
+</tbody></table>
+<h3>2.2 Special Category Health Data (GDPR Art. 9)</h3>
+<p>Health conditions, dietary restrictions, and related wellness data constitute <strong>special category data</strong> under GDPR Article 9. We process this data <strong>only with your explicit consent</strong> (Art. 9(2)(a)), obtained via an in-app consent screen before any data is collected.</p>
+<p>You may withdraw consent at any time. Withdrawal does not affect lawfulness of processing before withdrawal.</p>
+<h3>2.3 Device Health Data (Apple HealthKit / Google Health Connect)</h3>
+<p>If you choose to connect Rootbramble to Apple Health (iOS) or Google Health Connect (Android), we read the following data types from those platforms:</p>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Sleep (hours asleep)</td>
+<td>Context for your daily wellbeing check-in</td>
+</tr>
+<tr>
+<td>Step count</td>
+<td>Activity context for your wellness plan</td>
+</tr>
+<tr>
+<td>Resting heart rate</td>
+<td>Biometric context for your wellness plan</td>
+</tr>
+</tbody></table>
+<p><strong>Important rules governing this data:</strong></p>
+<ul>
+<li>Health platform data is read <strong>locally on your device only</strong> — the raw readings are never transmitted to our servers or any third party. (A derived ritual score computed from this data may be sent to Anthropic if you use the AI insight/coach feature — see Section 2.7.)</li>
+<li>It is not stored in any cloud database, not shared with advertisers, and not used for any advertising or marketing purpose.</li>
+<li>We do not request write access to Apple Health or Google Health Connect.</li>
+<li>Connection to Apple Health or Google Health Connect is <strong>optional</strong>. The app functions fully without it.</li>
+<li>You may revoke access at any time via iOS Settings → Privacy &amp; Security → Health → Rootbramble, or Android Settings → Health Connect → App permissions → Rootbramble.</li>
+</ul>
+<p><strong>Apple HealthKit:</strong> Under Apple&#39;s developer policies, data obtained through HealthKit may not be used for advertising, sold to third parties, or disclosed to data brokers. Rootbramble complies with these restrictions in full.</p>
+<p>Sleep, steps, and heart rate data obtained from health platforms constitute <strong>special category data</strong> under GDPR Article 9. We process this data under your explicit consent (Art. 9(2)(a)), obtained via the in-app Health Permissions prompt before any data is accessed.</p>
+<h3>2.4 Barcode Scan Data (Open Food Facts)</h3>
+<p>When you use the barcode scanner to add a custom supplement, your device sends the scanned barcode number to the <strong>Open Food Facts</strong> public API (<code>world.openfoodfacts.org</code>) to retrieve product information.</p>
+<ul>
+<li>The barcode number is transmitted transiently to Open Food Facts for product lookup only.</li>
+<li>The returned product name, brand, Nutri-Score, NOVA group, ingredients text, allergen tags, and additive count are cached locally on your device to avoid repeat network requests.</li>
+<li>Open Food Facts is an open-source, non-profit product database (openfoodfacts.org). No personal data is transmitted; only the barcode number is sent.</li>
+<li>Rootbramble is not affiliated with Open Food Facts. The Open Food Facts database is provided under the Open Database License (ODbL) 1.0, with individual product records under the Database Contents License (DbCL) 1.0; product images use Creative Commons Attribution ShareAlike (CC BY-SA). See <a href="https://world.openfoodfacts.org/terms-of-use">openfoodfacts.org/terms-of-use</a>.</li>
+</ul>
+<p><strong>Rootbramble&#39;s own crowdsourced barcode database:</strong> If a scanned barcode isn&#39;t found in Open Food Facts or our built-in catalog, your device also checks Rootbramble&#39;s own barcode database, hosted on our Cloudflare Worker/D1 database, and — if that lookup also fails — automatically submits the barcode number and the product name you typed in so another user&#39;s future scan of the same product can resolve it. This submission is tied to a per-install identifier (Section 6.6) and Cloudflare logs the submitting IP address for rate-limiting. We do not currently auto-delete these submissions; you can request deletion at any time (Section 8).</p>
+<h3>2.5 Technical Data</h3>
+<ul>
+<li>Device identifiers (for crash reporting)</li>
+<li>App usage events (for analytics, subject to consent)</li>
+<li>Subscription status</li>
+</ul>
+<h3>2.6 Website Email Sign-Up (rootbramble.com)</h3>
+<p>If you sign up for email updates on the Rootbramble website, we collect:</p>
+<table>
+<thead>
+<tr>
+<th>Field</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Email address</td>
+<td>Sending a double opt-in confirmation and, once confirmed, an occasional wellness-tips email sequence</td>
+</tr>
+<tr>
+<td>Subscription and consent status, timestamps</td>
+<td>Proving consent (double opt-in), managing unsubscribes, and honouring suppression requests</td>
+</tr>
+</tbody></table>
+<p>This is a separate mailing list, independent from your in-app account: it is not linked to your health data, wellness plan, or in-app identity, and it is not visible inside the app. No sequence email is sent until you confirm via a link emailed to you (double opt-in). You may unsubscribe at any time via the link in any email; unsubscribing is honoured immediately and recorded as a permanent suppression entry so that address is not emailed again, even from a new sign-up.</p>
+<p><strong>Website AI assistant:</strong> If you use the chat assistant on rootbramble.com, your question — and, if you&#39;re continuing a conversation, up to the last 6 messages of that chat — is sent to our backend and forwarded to Anthropic to generate a response. This is separate from the in-app coach (Section 2.7): it does not have access to your account, ritual, or health data, and no account is required to use it. Your IP address is used only to apply a rate limit and is not stored. See Sections 6.6 and 6.7 for Cloudflare and Anthropic as processors of this data.</p>
+<h3>2.7 AI Wellness Insights and Coach</h3>
+<p><strong>Current version: your health data stays on your device.</strong> The in-app AI insight and coach are switched off in the current version of Rootbramble. Your supplements, check-ins, wellbeing scores, goals and Apple Health / Health Connect readings are not sent to us, Cloudflare or Anthropic; the weekly insight is calculated on your device. The rest of this section describes how the feature works if a future version turns it on, which will again require your separate consent first.</p>
+<p>If you view your <strong>weekly ritual insight</strong> or ask a question through the <strong>in-app supplement coach</strong>, the following is sent to our backend and forwarded to our AI provider, <strong>Anthropic</strong> (maker of Claude), to generate a response:</p>
+<table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Data sent</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Weekly ritual insight</td>
+<td>Your average ritual score for the week, days completed out of total days, current streak, the week label (e.g. &quot;Sep 15–21&quot;), the names of the supplement you logged most consistently and least consistently (and how many days the latter was missed), your self-reported wellbeing trend (e.g. &quot;energy up 35%&quot;), your wellness goals, and your app language</td>
+</tr>
+<tr>
+<td>Ask-the-coach question</td>
+<td>The question you ask, your wellness goals, the insight text shown on screen at the time (which may include supplement names and pattern data), and your app language</td>
+</tr>
+</tbody></table>
+<p>This request is proxied through a Cloudflare Worker we operate — Cloudflare relays it but does not store it (see Section 6.6). Anthropic processes the request to generate the response and does not use API data to train its models. The structured fields listed above do not include your disclosed health conditions, medications, or dietary restrictions (Section 2.2); however, if you type that information into a free-text question to the coach, it is sent as-is and is not filtered out. See Section 6.7 for details on Anthropic as a processor.</p>
+<p><strong>Separate consent for this sharing:</strong> Sharing your ritual/wellness data with Anthropic requires its own dedicated, revocable consent — distinct from the general health-data consent in Section 2.2 and from analytics consent. You are shown exactly what will be sent and to whom before it happens, and nothing is shared until you agree; you can review or withdraw this consent anytime in Profile → AI Insight &amp; Coach. Without it, the weekly insight still works from an on-device summary that never leaves your phone; the coach&#39;s free-text Q&amp;A requires this consent to function at all, since it has no non-AI equivalent. See our <a href="../consumer-health-data-privacy/">Consumer Health Data Privacy Policy</a> for the Washington My Health My Data Act-specific disclosures governing this sharing.</p>
+<hr>
+<h2>3. How We Collect Data</h2>
+<ul>
+<li><strong>Directly from you:</strong> through onboarding screens and daily check-ins, including lab values you type in or capture by scanning a lab report (processed on-device, and we do not transmit the image or recognized text — see the <a href="../consumer-health-data-privacy/">Consumer Health Data Privacy Policy</a> §2 for how scanning works)</li>
+<li><strong>From your device health platform:</strong> Apple Health or Google Health Connect (only if you grant permission; optional)</li>
+<li><strong>From Open Food Facts API:</strong> product name, brand, and nutrition/ingredient data via barcode lookup (only when you use the barcode scanner; barcode number transmitted transiently)</li>
+<li><strong>From our own barcode database:</strong> the barcode number and product name, when Open Food Facts and our built-in catalog both fail to resolve a scan (Section 2.4)</li>
+<li><strong>From the Rootbramble website:</strong> email address, if you sign up for updates at rootbramble.com (Section 2.6)</li>
+<li><strong>From the AI insight/coach feature:</strong> ritual and adherence data, wellness goals, and any question you ask, only when you open the weekly insight or ask the coach a question (Section 2.7)</li>
+<li><strong>From the website AI assistant:</strong> any question you type into the rootbramble.com chat assistant, only when you use it (Section 2.6)</li>
+<li><strong>Automatically:</strong> usage analytics events, tied to a per-device identifier (only after your consent via the in-app consent dialog)</li>
+</ul>
+<hr>
+<h2>4. Legal Basis for Processing</h2>
+<table>
+<thead>
+<tr>
+<th>Data Type</th>
+<th>Legal Basis</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Health / special category data (disclosed conditions)</td>
+<td>Explicit consent — GDPR Art. 6(1)(a), Art. 9(2)(a)</td>
+</tr>
+<tr>
+<td>Device health data (HealthKit / Health Connect)</td>
+<td>Explicit consent — GDPR Art. 6(1)(a), Art. 9(2)(a)</td>
+</tr>
+<tr>
+<td>Barcode lookup (Open Food Facts API)</td>
+<td>Legitimate interest — GDPR Art. 6(1)(f) (no personal data transmitted)</td>
+</tr>
+<tr>
+<td>Account and app function data</td>
+<td>Contract performance — GDPR Art. 6(1)(b)</td>
+</tr>
+<tr>
+<td>Analytics (event tracking)</td>
+<td>Explicit consent, granted and withdrawable separately from health-data consent — GDPR Art. 6(1)(a)</td>
+</tr>
+<tr>
+<td>Website email sign-up (newsletter)</td>
+<td>Explicit consent, double opt-in — GDPR Art. 6(1)(a)</td>
+</tr>
+<tr>
+<td>In-app AI insight/coach sharing with Anthropic (ritual, goal, and wellbeing-trend data, and any question you type)</td>
+<td>Explicit consent, granted and withdrawable separately from health-data and analytics consent — GDPR Art. 6(1)(a); the structured data sent does not include disclosed health conditions or medications, though free-text questions are not filtered</td>
+</tr>
+<tr>
+<td>Website AI assistant (rootbramble.com chat)</td>
+<td>Contract performance — GDPR Art. 6(1)(b) (you actively initiate each chat; no account or health data involved)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>5. Where Data Is Stored</h2>
+<h3>5.1 Local Device Storage</h3>
+<p>Personal and health data is stored locally on your device using an encrypted SQLite database (Drift) and, for lab entries, supplement notes, and cached AI-derived insights, your device&#39;s secure hardware-backed storage (iOS Keychain / Android Keystore). Local data never leaves your device — there is currently no cloud or cross-device sync of any kind, for any subscription tier.</p>
+<h3>5.2 Cloud Storage</h3>
+<p>Cross-device sync is not yet available. This section will be updated, and users notified, before any such feature ships.</p>
+<h3>5.3 Website Mailing List (Cloudflare D1)</h3>
+<p>Email addresses and subscription status from the website sign-up (Section 2.6) are stored in <strong>Cloudflare D1</strong>, a database operated by Cloudflare, Inc., accessed only by a Cloudflare Worker we operate. This store is separate from your in-app account and is never merged with your health or wellness-plan data.</p>
+<hr>
+<h2>6. Data Processors</h2>
+<p>We share data with the following third-party processors under Data Processing Agreements (DPAs):</p>
+<h3>6.1 PostHog</h3>
+<p><strong>Services used:</strong> Product analytics (event tracking, feature flags)</p>
+<p><strong>Data processed:</strong> App usage events, tied to a per-device identifier PostHog assigns (not anonymised — see Section 3)</p>
+<p><strong>DPA:</strong> PostHog Data Processing Agreement — <a href="https://posthog.com/dpa">https://posthog.com/dpa</a></p>
+<p><strong>Transfer basis:</strong> Standard Contractual Clauses (GDPR Art. 46(2)(c))</p>
+<p><strong>Note:</strong> PostHog is initialised with analytics <strong>opted out</strong> until you grant consent via the in-app consent dialog. We do not use session recording.</p>
+<hr>
+<h3>6.2 RevenueCat</h3>
+<p><strong>Services used:</strong> Subscription and in-app purchase management</p>
+<p><strong>Data processed:</strong> Device identifier, purchase transaction records, entitlement status</p>
+<p><strong>DPA:</strong> RevenueCat Data Processing Addendum — <a href="https://www.revenuecat.com/dpa">https://www.revenuecat.com/dpa</a></p>
+<p><strong>Transfer basis:</strong> Standard Contractual Clauses (GDPR Art. 46(2)(c))</p>
+<hr>
+<h3>6.4 Feedback by Email (Google / Gmail)</h3>
+<p><strong>Services used:</strong> Receiving feedback you choose to send us. The in-app feedback buttons do not send anything themselves: they open your own email app with a draft addressed to <a href="mailto:feedbackrootbramble@gmail.com">feedbackrootbramble@gmail.com</a>, or, if you attach a screenshot, your device&#39;s share sheet. Nothing is sent until you send it.</p>
+<p><strong>Data processed:</strong> Your email address, your message text, and any screenshot you attach. Our mailbox is hosted by Google (Gmail).</p>
+<p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a></p>
+<p><strong>Retention:</strong> Feedback emails are kept for as long as needed to act on them; you can ask us to delete yours at any time (Section 9).</p>
+<p><strong>Important:</strong> Feedback is not for health-related queries. Do not include health conditions, medication names, or other sensitive health details in your message, and check that a screenshot does not show them.</p>
+<hr>
+<h3>6.5 Resend</h3>
+<p><strong>Services used:</strong> Delivery of the website mailing list&#39;s confirmation and wellness-tips emails (Section 2.6)</p>
+<p><strong>Data processed:</strong> Email address, delivery/bounce/complaint status</p>
+<p><strong>DPA:</strong> Resend Data Processing Agreement — <a href="https://resend.com/legal/dpa">https://resend.com/legal/dpa</a></p>
+<p><strong>Transfer basis:</strong> Standard Contractual Clauses (GDPR Art. 46(2)(c))</p>
+<hr>
+<h3>6.6 Cloudflare</h3>
+<p><strong>Services used:</strong> D1 database and Workers hosting for the website mailing list, the site AI assistant, and the in-app AI insight/coach feature (Section 2.7)</p>
+<p><strong>Data processed:</strong> Email address and subscription status (mailing list, stored in D1). For the in-app AI insight/coach feature, your ritual, goal, and question data (Section 2.7) is relayed in transit through our Cloudflare Worker to Anthropic — it is not stored by Cloudflare. For the website AI assistant (Section 2.6), your question, prior chat messages, and your IP address (used only for rate-limiting, not stored) pass through our Cloudflare Worker to Anthropic in the same way. For unresolved barcode scans (Section 2.4), the barcode number, submitted product name, submission count, and timestamp are stored in D1 indefinitely, and the submitting IP address is logged for rate-limiting. On first use of the AI insight/coach or barcode-database features, the app registers a per-install token with our Worker (a one-way hash of it is stored, never the raw token); this token has no other identifying data attached to it and exists solely to apply the daily usage limits described in Sections 2.4 and 2.7 and to let you revoke that install&#39;s access from Settings → Delete My Data. See Section 8 for its retention window.</p>
+<p><strong>DPA:</strong> Cloudflare Customer DPA — <a href="https://www.cloudflare.com/cloudflare-customer-dpa/">https://www.cloudflare.com/cloudflare-customer-dpa/</a></p>
+<p><strong>Transfer basis:</strong> Standard Contractual Clauses (GDPR Art. 46(2)(c))</p>
+<hr>
+<h3>6.7 Anthropic</h3>
+<p><strong>Services used:</strong> Generating your weekly ritual insight, answering questions you ask the in-app coach (Section 2.7), and answering questions asked through the website chat assistant (Section 2.6)</p>
+<p><strong>Data processed:</strong> Exactly the fields listed in the Section 2.7 table — weekly average ritual score, days completed/total days, streak, week label, most- and least-consistent supplement names (and missed-day count), self-reported wellbeing trend, wellness goals, app language, and for the coach, your question plus the on-screen insight text. These are relayed through our Cloudflare Worker (Section 6.6). The structured fields above do not include disclosed health condition, medication, or dietary-restriction data (Section 2.2), but free-text questions are sent as typed and are not filtered. For the website assistant: the question you type and, if continuing a conversation, up to 6 prior messages from that same chat session. The website assistant has no access to account, ritual, or health data.</p>
+<p><strong>DPA:</strong> Anthropic Data Processing Addendum — <a href="https://www.anthropic.com/legal/data-processing-addendum">https://www.anthropic.com/legal/data-processing-addendum</a> (verify current URL before relying on it)</p>
+<p><strong>Transfer basis:</strong> Standard Contractual Clauses (GDPR Art. 46(2)(c))</p>
+<p><strong>Note:</strong> Anthropic does not use data submitted through its commercial API to train its models.</p>
+<hr>
+<h2>7. International Data Transfers</h2>
+<p>PostHog, Resend, Cloudflare, RevenueCat, Anthropic, and Google (for feedback emails you send us, Section 6.4) transfer data to servers in the United States. These transfers are protected by Standard Contractual Clauses approved under GDPR Article 46(2)(c). Copies of applicable SCCs are available on request at <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>.</p>
+<hr>
+<h2>8. Data Retention</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Retention</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Local device data (Drift SQLite database)</td>
+<td>Deleted automatically by your device&#39;s OS when you uninstall the app, or sooner if you delete your data in-app</td>
+</tr>
+<tr>
+<td>Local secure storage (iOS Keychain / Android Keystore — lab results, supplement notes, cached AI insights)</td>
+<td>Not automatically deleted by uninstalling the app — this is a platform behavior outside our control. Cleared when you delete your data in-app, or automatically purged the next time Rootbramble is freshly installed on that device</td>
+</tr>
+<tr>
+<td>PostHog analytics events</td>
+<td>1 year from collection</td>
+</tr>
+<tr>
+<td>Subscription transaction records</td>
+<td>As required by Apple/Google platform policies</td>
+</tr>
+<tr>
+<td>Website mailing list (Cloudflare D1)</td>
+<td>Until you unsubscribe; a suppression record of unsubscribed/bounced addresses is retained indefinitely to enforce your opt-out</td>
+</tr>
+<tr>
+<td>AI insight / coach / website-assistant requests (Section 2.6, 2.7)</td>
+<td>Not stored — relayed in real time to Anthropic and not persisted in our database or by Cloudflare</td>
+</tr>
+<tr>
+<td>Per-install token hash (AI insight/coach and barcode-database rate limiting, Section 6.6)</td>
+<td>180 days from last use if never revoked; 30 days after you revoke it (Settings → Delete My Data)</td>
+</tr>
+</tbody></table>
+<hr>
+<h2>9. Your Rights Under GDPR</h2>
+<p>If you are in the EEA, UK, or Switzerland, you have the following rights:</p>
+<p><strong>Art. 15 — Right of access:</strong> Request a copy of your personal data.</p>
+<p><strong>Art. 16 — Right to rectification:</strong> Correct inaccurate data.</p>
+<p><strong>Art. 17 — Right to erasure (&quot;right to be forgotten&quot;):</strong> Request deletion of your data. Local data: delete within the app (Settings → Delete My Data). Cloud data: submit a request to <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a> — completed within 30 days.</p>
+<p><strong>Art. 18 — Right to restriction:</strong> Request that we restrict processing.</p>
+<p><strong>Art. 20 — Right to data portability:</strong> Request your data in a machine-readable format (CSV export available in Settings).</p>
+<p><strong>Art. 21 — Right to object:</strong> Object to processing based on legitimate interests.</p>
+<p><strong>Art. 22 — Automated decision-making:</strong> Your wellness plan is generated algorithmically. You can override plan items manually. No decisions with significant legal effect are made automatically.</p>
+<p>To exercise any right, email <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>. We will respond within 30 days.</p>
+<hr>
+<h2>9A. Your Rights Under California Law (CCPA/CPRA)</h2>
+<p>If you are a California resident, you have the following rights under the California Consumer Privacy Act as amended by the California Privacy Rights Act (CCPA/CPRA):</p>
+<p><strong>Right to Know:</strong> Request the categories and specific pieces of personal information we have collected about you, the sources it came from, the purpose for collecting it, and the categories of third parties we&#39;ve shared it with.</p>
+<p><strong>Right to Delete:</strong> Request deletion of your personal information, subject to certain legal exceptions. Local data: delete within the app (Settings → Delete My Data). Data held by our processors: submit a request to <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>.</p>
+<p><strong>Right to Correct:</strong> Request correction of inaccurate personal information we hold about you.</p>
+<p><strong>Right to Opt-Out of Sale or Sharing:</strong> <strong>We do not sell your personal information, and we do not &quot;share&quot; it for cross-context behavioural advertising</strong> as defined by the CPRA. There is no advertising or ad-tech integration in Rootbramble. Because we do not sell or share, there is no &quot;Do Not Sell or Share My Personal Information&quot; link to provide — this section itself serves as that disclosure.</p>
+<p><strong>Right to Limit Use of Sensitive Personal Information:</strong> Your health conditions, dietary restrictions, and wellness data constitute &quot;sensitive personal information&quot; under the CPRA. We use this data only to provide the app&#39;s core functionality (plan generation, contraindication filtering) as disclosed in Section 2 — never for advertising, profiling for marketing purposes, or inferring characteristics about you beyond what you directly provide. You may request that we limit use of sensitive personal information to what is strictly necessary by emailing <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>.</p>
+<p><strong>Right to Non-Discrimination:</strong> We will not deny you goods or services, charge different prices, or provide a different level of service because you exercised any right under this section.</p>
+<p><strong>Authorized Agent:</strong> You may designate an authorized agent to make a request on your behalf. We may require proof of the agent&#39;s authorization and verification of your identity.</p>
+<p>To exercise any right under this section, email <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>. We will verify your identity before fulfilling the request and respond within the timeframe required by law (generally 45 days, extendable once by another 45 days with notice).</p>
+<hr>
+<h2>10. Children&#39;s Privacy</h2>
+<p>Rootbramble requires users to be <strong>13 years or older</strong>. We do not knowingly collect personal data from children under 13. If you believe a child under 13 has provided us data, contact <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a> and we will delete it promptly.</p>
+<p>In EEA countries that set a higher age for consenting to online services on your own (up to 16 under GDPR Article 8), a user below that age is asked during sign-up to confirm that a parent or guardian agrees before any health information is entered; we record when that confirmation was given. We do not verify it independently. A parent or guardian can ask us to delete the data at any time via <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a>.</p>
+<hr>
+<h2>11. FTC Health Breach Notification Rule</h2>
+<p>For users in the United States, we comply with the Federal Trade Commission Health Breach Notification Rule. In the event of a security breach involving your health data, we will:</p>
+<ul>
+<li>Notify you <strong>without unreasonable delay</strong>, and in no case later than <strong>60 calendar days</strong> after discovering the breach — the clock starts the day the breach becomes known to us or reasonably should have, and if we finish our assessment sooner than 60 days, we notify sooner, not on day 60 regardless</li>
+<li>Notify the FTC: for a breach affecting 500 or more people, at the same time as the individual notices above (also within 60 days); for a breach affecting fewer than 500 people, via the FTC&#39;s online Notice of Breach of Health Information form within 60 days of the end of the calendar year in which the breach occurred</li>
+<li>For breaches affecting 500 or more users in a US state or territory, notify prominent media outlets in those areas</li>
+</ul>
+<p>Notifications will be delivered via email (if you have provided one), in-app notification, and push notification.</p>
+<hr>
+<h2>12. Security</h2>
+<p>We implement industry-standard security measures:</p>
+<ul>
+<li>Local data encrypted via device OS encryption</li>
+<li>All network communication uses TLS 1.2+</li>
+<li>Health platform data (HealthKit / Health Connect) is processed on-device only; raw readings are never transmitted to our servers or any third party. A derived ritual score computed from this data may be sent to Anthropic if you use the AI insight/coach feature — see Section 2.7.</li>
+<li>No health data is transmitted to third parties beyond the named processors above</li>
+</ul>
+<hr>
+<h2>13. Changes to This Policy</h2>
+<p>We will notify you of material changes via in-app notification. For changes to how we use your health data specifically, the App will block further use until you affirmatively re-accept the revised policy — you will see this the next time you open the app after the change ships, not on a 30-day delay. For other changes, continued use after the in-app notice constitutes acceptance.</p>
+<hr>
+<h2>14. Supervisory Authorities</h2>
+<p>You have the right to lodge a complaint with your national supervisory authority:</p>
+<ul>
+<li><strong>Norway:</strong> Datatilsynet — <a href="https://www.datatilsynet.no">https://www.datatilsynet.no</a></li>
+<li><strong>UK:</strong> Information Commissioner&#39;s Office (ICO) — <a href="https://ico.org.uk">https://ico.org.uk</a></li>
+<li><strong>EU:</strong> Your relevant national DPA — <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">https://edpb.europa.eu/about-edpb/about-edpb/members_en</a></li>
+</ul>
+<hr>
+<h2>15. Contact</h2>
+<p>For any privacy-related questions, rights requests, or data concerns:</p>
+<p><strong>Email:</strong> <a href="mailto:tekeshine@gmail.com">tekeshine@gmail.com</a></p>
+<p>Response time: within 30 days.</p>
+</body></html>
